@@ -16,8 +16,8 @@ jobs:
         with:
           node-version: "20"
       - name: Install dependencies
-        runs: npm Install
+        run: npm install
       - name: Run lint
-        runs: npm run lint
+        run: npm run lint
       - name: Prettier check
-        runs: npm run fix
+        run: npm run fix
